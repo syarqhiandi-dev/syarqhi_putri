@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seblak Jajanan Dower</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🌶️ Seblak Jajanan Dower</h1>
+    <p>Pedasnya Bikin Nagih!</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#tentang">Tentang Kami</a>
+</nav>
+
+<section id="home">
+    <h2>Selamat Datang di Seblak Jajanan Dower!</h2>
+    <p>Nikmati seblak dengan rasa pedas dan nikmat.</p>
+</section>
+
+<section id="menu">
+    <h2>Daftar Menu</h2>
+
+    <div class="menu">
+        <h3>Seblak Original</h3>
+        <p>Rp10.000</p>
+        <button onclick="pesan('Seblak Original',10000)">
+            Pesan
+        </button>
+    </div>
+
+    <div class="menu">
+        <h3>Seblak Ceker</h3>
+        <p>Rp13.000</p>
+        <button onclick="pesan('Seblak Ceker',13000)">
+            Pesan
+        </button>
+    </div>
+
+    <div class="menu">
+        <h3>Seblak Bakso</h3>
+        <p>Rp12.000</p>
+        <button onclick="pesan('Seblak Bakso',12000)">
+            Pesan
+        </button>
+    </div>
+
+    <div class="menu">
+        <h3>Seblak Komplit</h3>
+        <p>Rp15.000</p>
+        <button onclick="pesan('Seblak Komplit',15000)">
+            Pesan
+        </button>
+    </div>
+</section>
+
+<section id="tentang">
+    <h2>Tentang Kami</h2>
+    <p>
+        Seblak Jajanan Dower merupakan UMKM kuliner
+        yang menyediakan berbagai macam seblak
+        dengan cita rasa pedas dan lezat.
+    </p>
+</section>
+
+<footer>
+    <p>&copy; 2026 Seblak Jajanan Dower</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
